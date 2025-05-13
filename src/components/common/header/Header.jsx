@@ -7,7 +7,8 @@ const Header = () => {
   const [click, setClick] = useState(false)
 
   return (
-    <>
+    <div className="header-main">
+  
       <Head />
       <header>
         <nav className='flexSB'>
@@ -21,9 +22,9 @@ const Header = () => {
             <li>
               <Link to='/about'>About</Link>
             </li>
-            <li>
+            {/* <li>
               <Link to='/team'>Team</Link>
-            </li>
+            </li> */}
             <li>
               <Link to='/pricing'>Pricing</Link>
             </li>
@@ -35,14 +36,15 @@ const Header = () => {
             </li>
           </ul>
           <div className='start'>
-            <div className='button'>GET CERTIFICATE</div>
+            <div className='button'>LOGIN / SIGNUP</div>
           </div>
           <button className='toggle' onClick={() => setClick(!click)}>
             {click ? <i className='fa fa-times'> </i> : <i className='fa fa-bars'></i>}
           </button>
         </nav>
       </header>
-    </>
+
+    </ div>
   )
 }
 

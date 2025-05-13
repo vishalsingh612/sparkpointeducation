@@ -1,17 +1,45 @@
 import React from "react"
 import Heading from "../common/heading/Heading"
-import PriceCard from "../pricing/PriceCard"
+import { FaBookOpen, FaFileAlt, FaUserFriends } from "react-icons/fa"
+import "./price.css"
+const offerings = [
+  {
+    icon: <FaBookOpen size={30} color="#5e3fa2" />,
+    title: "Complete Study Material",
+    desc: "Access high-quality resources covering all topics.",
+  },
+  {
+    icon: <FaFileAlt size={30} color="#5e3fa2" />,
+    title: "Practice Tests & Sectional Tests",
+    desc: "Sharpen your skills with focused tests.",
+  },
+  {
+    icon: <FaFileAlt size={30} color="#5e3fa2" />,
+    title: "Full-Length Mock Tests",
+    desc: "Experience real exam conditions before the big day.",
+  },
+  {
+    icon: <FaUserFriends size={30} color="#5e3fa2" />,
+    title: "One-on-One Live Sessions",
+    desc: "Get personalized attention with expert tutors.",
+  },
+]
 
 const Hprice = () => {
   return (
-    <>
-      <section className='hprice padding'>
-        <Heading subtitle='OUR PRICING' title='Pricing & Packages' />
-        <div className='price container grid'>
-          <PriceCard />
-        </div>
-      </section>
-    </>
+    <section className='hprice padding'>
+      <Heading subtitle='OUR OFFERINGS' title='What to Expect' />
+
+      <div className='offerings-grid'>
+        {offerings.map((item, index) => (
+          <div className='offering-card' key={index}>
+            <div className='icon-circle'>{item.icon}</div>
+            <h3 className='offering-title'>{item.title}</h3>
+            <p className='offering-desc'>{item.desc}</p>
+          </div>
+        ))}
+      </div>
+    </section>
   )
 }
 

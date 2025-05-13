@@ -1,3 +1,4 @@
+import { FaUserGraduate, FaChalkboardTeacher, FaBookOpen } from "react-icons/fa"
 export const homeAbout = [
   {
     id: 1,
@@ -18,27 +19,25 @@ export const homeAbout = [
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
   },
 ]
+
+
+
+
 export const awrapper = [
   {
-    cover: "https://img.icons8.com/external-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto/80/ffffff/external-graduation-education-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto.png",
-    data: "3,000",
-    title: "SUCCESS STORIES",
-  },
-
-  {
-    cover: "https://img.icons8.com/ios/80/ffffff/athlete.png",
-    data: "320",
-    title: "TRUSTED TUTORS",
+    icon: <FaUserGraduate />,
+    data: "10,000+",
+    title: "Students Enrolled",
   },
   {
-    cover: "https://img.icons8.com/external-outline-icons-maxicons/80/ffffff/external-calender-insurance-outline-outline-icons-maxicons.png",
-    data: "1,000",
-    title: "SCHEDULES",
+    icon: <FaChalkboardTeacher />,
+    data: "500+",
+    title: "Expert Tutors",
   },
   {
-    cover: "https://img.icons8.com/ios/80/ffffff/macbook-idea--v3.png",
-    data: "587",
-    title: "COURSES",
+    icon: <FaBookOpen />,
+    data: "1,200+",
+    title: "Courses Available",
   },
 ]
 export const coursesCard = [
@@ -392,22 +391,22 @@ export const blog = [
 export const testimonal = [
   {
     id: 1,
-    name: "ROGER SCOTT",
-    post: "MARKETING MANAGER",
+    name: "Student Name",
+    post: "Course",
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
     cover: "./images/testo/t1.webp",
   },
   {
     id: 2,
-    name: "ROGER SCOTT",
-    post: "MARKETING MANAGER",
+    name: "Student Name",
+    post: "Course",
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
     cover: "./images/testo/t2.webp",
   },
   {
     id: 3,
-    name: "ROGER SCOTT",
-    post: "MARKETING MANAGER",
+    name: "Student Name",
+    post: "Course",
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
     cover: "./images/testo/t3.webp",
   },

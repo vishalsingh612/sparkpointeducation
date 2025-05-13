@@ -45,20 +45,50 @@
 .aboutHome .item:hover p {
   color: #fff;
 }
+
+/*----------form------------*/
+.demoForm {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.form-btn {
+  background-color: #7F3E99;
+  color: white;
+  padding: 18px 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form-btn:hover {
+  background-color: #701993;
+}
 /*----------awrapper------------*/
 .awrapper {
-  background-image: url("../../../public/images/awrapper.webp");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 30vh;
-  color: #fff;
+  height: 100%;
+  color: #7F3E99;
+  margin: 0px;
+  padding: 0;
 }
 .awrapper .box {
   padding: 70px 0;
 }
 .awrapper img {
   margin-right: 30px;
+  mix-blend-mode: multiply;
+  background-color: #7F3E99;
 }
 .awrapper h1 {
   font-size: 50px;

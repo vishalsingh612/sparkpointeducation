@@ -1,0 +1,44 @@
+.offerings-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    width: 80%;
+    gap: 30px;
+    margin-top: 20px;
+    margin: auto;
+  }
+  
+  .offering-card {
+    background: #fff;
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+    transition: 0.3s ease;
+  }
+  
+  .offering-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  .icon-circle {
+    background-color: #ece8f9;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .offering-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .offering-desc {
+    color: #666;
+    font-size: 15px;
+  }
+  

@@ -1,6 +1,6 @@
 import React from "react"
 import AboutCard from "../about/AboutCard"
-import Hblog from "./Hblog"
+import Hblog from "./MobileApp"
 import HAbout from "./HAbout"
 import Hero from "./hero/Hero"
 import Hprice from "./Hprice"
@@ -12,8 +12,9 @@ const Home = () => {
       <Hero />
       <AboutCard />
       <HAbout />
-      <Testimonal />
+      
       <Hblog />
+      <Testimonal />
       <Hprice />
     </>
   )

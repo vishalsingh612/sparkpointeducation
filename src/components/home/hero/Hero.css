@@ -5,21 +5,69 @@
   position: absolute;
   top: 0;
   left: 0;
-  z-index: -1;
+  z-index: 1;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   padding-top: 20%;
   padding-right: 50px;
   color: #fff;
 }
+
 .hero #heading h3 {
   color: #fff;
 }
+
 .hero #heading {
   text-align: left;
   margin: 0;
   padding: 0;
 }
+
+.hero-buttons {
+  margin-top: 2px;
+}
+
+.primary-btn,
+.secondary-btn {
+  padding: 18px 26px;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-right: 12px;
+  
+}
+
+.primary-btn {
+  background-color: #7F3E99;
+  color: #fff;
+  border: none;
+
+}
+
+.primary-btn:hover {
+  background-color: #692f87;
+  cursor: pointer;
+}
+
+.secondary-btn {
+  background-color: #fff;
+  color: #7F3E99;
+ 
+}
+
+.secondary-btn:hover {
+  background-color: #7F3E99;
+  color: #fff;
+  cursor: pointer;
+}
+
+.margin {
+  height: 100%;
+}
+
 @media screen and (max-width: 768px) {
   .margin {
     height: 40vh;
@@ -31,5 +79,15 @@
   }
   .hero .row {
     width: 100%;
+  }
+  .hero-buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .primary-btn,
+  .secondary-btn {
+    width: 100%;
+    justify-content: center;
   }
 }
