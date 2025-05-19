@@ -1,0 +1,78 @@
+.internationalCurriculumWrapper {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .curriculumSection {
+    margin-bottom: 60px;
+    border-radius: 12px;
+
+    padding: 30px;
+  }
+  
+  .curriculumSection h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  .curriculumGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .curriculumCard {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+  }
+  
+  .curriculumCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+  }
+  
+  .curriculumCard h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .curriculumCard p {
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .advantages {
+    font-size: 1rem;
+    color: #444;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+  }
+  
+  .sectionButtonWrapper {
+    text-align: center;
+  }
+  
+  .curriculumButton {
+    padding: 12px 24px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .curriculumButton:hover {
+    background-color: #ffffff;
+  }
+  

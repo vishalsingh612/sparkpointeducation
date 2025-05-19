@@ -3,20 +3,19 @@ export const homeAbout = [
   {
     id: 1,
     cover: "https://img.icons8.com/dotty/80/000000/storytelling.png",
-    title: "Online Courses",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    title: "SAT | International Curriculum | English & Other Languages | Engineering Semester Exams",
   },
   {
     id: 1,
     cover: "https://img.icons8.com/ios/80/000000/diploma.png",
-    title: "Earn A Certificates",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    title: "10+ Years Experience Teachers",
+    
   },
   {
     id: 1,
     cover: "https://img.icons8.com/ios/80/000000/athlete.png",
-    title: "Learn with Expert",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    title: "About Us",
+    desc: "Spark Point Education is dedicated exclusively to SAT preparation, offering a comprehensive and strategic approach to help students achieve their best scores. With a team of expert instructors, personalized learning plans, and high-quality study materials, we ensure that every student receives the guidance they need to excel. Our structured curriculum covers all sections of the SAT, focusing on concept mastery, problem-solving strategies, and time management skills. Through rigorous mock tests, detailed performance analysis, and one-on-one mentoring, we help students identify their strengths and improve on their weaknesses. Whether you're taking the SAT for the first time or looking to boost your score, Spark Point Education is the perfect solution to help you reach your college admission goals with confidence.",
   },
 ]
 
@@ -44,7 +43,8 @@ export const coursesCard = [
   {
     id: 1,
     cover: "../images/courses/c1.png",
-    coursesName: "Introducing to Software Engineering",
+    coursesName: "SAT Prepration - 4 Months",
+    coursesDesc: "Our SAT preparation course offers expert guidance, strategic test-taking techniques, and comprehensive practice to help you achieve your highest score with confidence.",
     courTeacher: [
       {
         dcover: "./images/back.webp",
@@ -52,36 +52,41 @@ export const coursesCard = [
         totalTime: "50 lectures (190 hrs)",
       },
     ],
-    priceAll: "$100 All Course",
-    pricePer: "$15 per month",
+    priceAll: "₹ 82,215",
+    pricePer: "₹",
+    link: "https://www.sparkpointeducation.com/courses/653140?mainCategory=0",
   },
   {
     id: 2,
     cover: "../images/courses/c2.png",
-    coursesName: "Enhancing Adobe Photoshop CC 2020 Skills",
+    coursesName: "IELTS Preparation Course (One-on-Five)",
+    coursesDesc: "IELTS Preparation Course equips you with the skills and strategies needed to excel in all four sections – Listening, Reading, Writing, and Speaking – through expert guidance.",
     courTeacher: [
       {
         dcover: "./images/back.webp",
-        name: "by Ram Gurung",
-        totalTime: "30 lectures (125 hrs)",
+        name: "by John Smith",
+        totalTime: "50 lectures (190 hrs)",
       },
     ],
-    priceAll: "$200 All Course",
+    priceAll: "₹ 7,726",
     pricePer: "$25 per month",
+    link: "https://www.sparkpointeducation.com/courses/648529?mainCategory=7",
   },
   {
     id: 3,
     cover: "../images/courses/c3.png",
-    coursesName: "HTML, CSS, and Javascript for Web Developers",
+    coursesName: "IELTS Preparation Course (One-on-One)",
+    coursesDesc: "IELTS Preparation Course equips you with the skills and strategies needed to excel in all four sections – Listening, Reading, Writing, and Speaking – through expert guidance.",
     courTeacher: [
       {
         dcover: "./images/back.webp",
-        name: "by Saroj Nepal",
-        totalTime: "50 lectures (50 hrs)",
+        name: "by John Smith",
+        totalTime: "50 lectures (190 hrs)",
       },
     ],
-    priceAll: "$50 All Course",
+    priceAll: "₹ 25,706",
     pricePer: "$5 per month",
+    link: "https://www.sparkpointeducation.com/courses/648528?mainCategory=7",
   },
   {
     id: 4,
@@ -285,26 +290,29 @@ export const team = [
   },
 ]
 export const price = [
-  {
-    name: "BASIC PLAN",
-    price: "49K",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-  },
-  {
-    name: "BEGINNER PLAN",
-    price: "79K",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-  },
-  {
-    name: "PREMIUM PLAN",
-    price: "109k",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-  },
-  {
-    name: "ULTIMATE PLAN",
-    price: "149K",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-  },
+  
+    {
+      name: "SUBJECT MASTERY PLAN",
+      desc: "Master the curriculum, deliver clear explanations, provide structured notes, and reinforce learning using quality resources."
+    },
+    {
+      name: "TEACHING METHODOLOGY PLAN",
+      desc: "Use student-centered approaches, promote interaction, make learning fun, structure lessons effectively, and assess regularly."
+    },
+    {
+      name: "TERMINOLOGY MASTERY PLAN",
+      desc: "Fluently use subject-specific terms, explain them clearly, maintain consistency, and align with global curriculum standards."
+    },
+    {
+      name: "COMMUNICATION SKILLS PLAN",
+      desc: "Communicate clearly with a neutral accent, use vocal variety, support with visuals, and build confidence through practice."
+    },
+    {
+      name: "INCLUSIVE EDUCATION PLAN",
+      desc: "Adapt teaching for special needs students, create a safe and flexible environment, personalize lessons, and collaborate with caregivers."
+    }
+  
+  
 ]
 export const faq = [
   {
@@ -391,23 +399,23 @@ export const blog = [
 export const testimonal = [
   {
     id: 1,
-    name: "Student Name",
-    post: "Course",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    name: "Ananya",
+    post: "SAT Score: 1360",
+    desc: "I’m so grateful to SparkPoint Education for their constant support and expert guidance throughout my SAT journey. The structured lessons, practice tests, and personalized feedback helped me build confidence and achieve a 1360 on the SAT. SparkPoint made test prep a smooth and motivating experience!",
     cover: "./images/testo/t1.webp",
   },
   {
     id: 2,
-    name: "Student Name",
-    post: "Course",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    name: "Dhruv",
+    post: "SAT Score: 1500",
+    desc: "I’m so grateful to SparkPoint Education for their constant support and expert guidance throughout my SAT journey. The structured lessons, practice tests, and personalized feedback helped me build confidence and achieve a 1500 on the SAT. SparkPoint made test prep a smooth and motivating experience",
     cover: "./images/testo/t2.webp",
   },
   {
     id: 3,
-    name: "Student Name",
-    post: "Course",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    name: "Anirudh",
+    post: "SAT Score: 1460",
+    desc: "Joining SparkPoint Education was a game-changer for me. The faculty was incredibly knowledgeable, and their strategies made complex topics easier to understand. With their constant encouragement and smart study techniques, I was able to push my score to 1460. I couldn’t have done it without them",
     cover: "./images/testo/t3.webp",
   },
 ]

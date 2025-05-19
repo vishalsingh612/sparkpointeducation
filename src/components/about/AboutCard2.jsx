@@ -14,14 +14,14 @@ const AboutCard2 = () => {
             <img src='./images/about.webp' alt='' />
           </div>
           <div className='right row'>
-            <Heading subtitle='LEARN ANYTHING' title='Benefits About Online Learning Expertise' />
+            <Heading subtitle='Spark Point Education' title='Score higher with Spark Point' />
             <div className='items'>
               {homeAbout.map((val) => {
                 return (
                   <div className='item flexSB'>
-                    <div className='img'>
+                    {/* <div className='img'>
                       <img src={val.cover} alt='' />
-                    </div>
+                    </div> */}
                     <div className='text'>
                       <h2>{val.title}</h2>
                       <p>{val.desc}</p>

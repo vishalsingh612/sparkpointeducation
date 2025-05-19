@@ -5,7 +5,7 @@ import logo from "../../../images/logo.png"
 const Footer = () => {
   return (
     <>
-      <section className='newletter'>
+      {/* <section className='newletter'>
         <div className='container flexSB'>
           <div className='left row'>
             <h1>Newsletter - Stay tune and get the latest update</h1>
@@ -16,7 +16,7 @@ const Footer = () => {
             <i className='fa fa-paper-plane'></i>
           </div>
         </div>
-      </section>
+      </section> */}
       <footer>
         <div className='container padding'>
           <div className='box logo'>
@@ -58,7 +58,8 @@ const Footer = () => {
               </li>
               <li>
                 <i className='fa fa-phone-alt'></i>
-                +91 93104 48417
+                +91 93104 48417<br/>
+                +91 92116 31407
               </li>
               <li>
                 <i className='fa fa-paper-plane'></i>

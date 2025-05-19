@@ -1,18 +1,19 @@
 import React from "react"
 import { price } from "../../dummydata"
-
+import Heading from "../common/heading/Heading"
 const PriceCard = () => {
   return (
     <>
+    
       {price.map((val) => (
         <div className='items shadow'>
           <h4>{val.name}</h4>
-          <h1>
-            <span>$</span>
+          {/* <h1>
+        
             {val.price}
-          </h1>
+          </h1> */}
           <p>{val.desc}</p>
-          <button className='outline-btn'>GET STARTED</button>
+          {/* <button className='outline-btn'>GET STARTED</button> */}
         </div>
       ))}
     </>

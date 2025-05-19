@@ -1,0 +1,127 @@
+/* Page Wrapper */
+.internationalCurriculumWrapper {
+    padding: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  /* Page Heading */
+  .pageHeading {
+    text-align: center;
+    font-size: 36px;
+    color: #7F3E99;
+    margin-bottom: 40px;
+  }
+  
+  /* Section Styling */
+  .curriculumSection {
+    margin-bottom: 120px;
+  }
+  
+  .curriculumSection h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 25px;
+  }
+  
+  /* Grid Layout for Cards */
+  .curriculumGrid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  /* Individual Course Card */
+  .curriculumCard {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    flex: 1 1 calc(33% - 20px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .curriculumCard:hover {
+    background-color: #7F3E99;
+    color: #fff;
+    transform: translateY(-5px);
+    cursor: pointer;
+  }
+  
+  .curriculumCard h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .curriculumCard p {
+    color: #666;
+    font-size: 15px;
+    line-height: 1.6;
+  }
+  
+  .curriculumCard:hover p {
+    color: #fff;
+  }
+  
+  /* Advantages Paragraph */
+  .advantages {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #444;
+    line-height: 1.6;
+    padding: 0 5px;
+  }
+  
+  /* View Button */
+  .sectionButtonWrapper {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .curriculumButton {
+    margin-top: 10px;
+    padding: 12px 24px;
+    background-color: #7F3E99;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    transition: background-color 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .curriculumButton:hover {
+    background-color: #701993 !important;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .curriculumGrid {
+      flex-direction: column;
+    }
+  
+    .curriculumCard {
+      flex: 1 1 100%;
+    }
+  
+    .pageHeading {
+      font-size: 28px;
+    }
+  
+    .curriculumSection h1 {
+      font-size: 22px;
+    }
+  
+    .curriculumCard h2 {
+      font-size: 18px;
+    }
+  
+    .curriculumCard p {
+      font-size: 14px;
+    }
+  
+    .advantages {
+      font-size: 15px;
+    }
+  }
+  

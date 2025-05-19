@@ -6,17 +6,17 @@ const Awrapper = () => {
   const statsData = [
     {
       icon: <FaUserGraduate />,
-      data: "10,000+",
+      data: "1,000+",
       title: "Students Enrolled",
     },
     {
       icon: <FaChalkboardTeacher />,
-      data: "500+",
+      data: "100+",
       title: "Expert Tutors",
     },
     {
       icon: <FaBookOpen />,
-      data: "1,200+",
+      data: "10+",
       title: "Courses Available",
     },
   ]

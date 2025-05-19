@@ -46,3 +46,36 @@
   background-color: #fff;
   color: #7F3E99;
 }
+@media (max-width: 768px) {
+  .grid2 {
+    grid-template-columns: 1fr; /* Stack items in 1 column */
+  }
+
+  .testimonal .box {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .testimonal .img {
+    margin-bottom: 15px;
+  }
+
+  .testimonal img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .testimonal .name h2 {
+    font-size: 18px;
+  }
+
+  .testimonal p {
+    font-size: 14px;
+  }
+
+  .testimonal i {
+    left: auto;
+    right: 0;
+  }
+}

@@ -57,10 +57,26 @@ const AboutCard = () => {
                 <div className="form-group">
                   <select name="course" value={formData.course} onChange={handleChange} required>
                     <option value="">Select a course</option>
-                    <option value="web">Web Development</option>
-                    <option value="data">Data Science</option>
-                    <option value="ai">AI & ML</option>
-                    <option value="marketing">Digital Marketing</option>
+                    <option value="english">English</option>
+  <option value="mathematics">Mathematics</option>
+  <option value="science">Science</option>
+  <option value="coding">Coding</option>
+  <option value="robotics">Robotics</option>
+  <option value="ielts">IELTS</option>
+  <option value="ela">ELA</option>
+  <option value="naplan">NAPLAN</option>
+  <option value="staar">STAAR</option>
+  <option value="icas">ICAS</option>
+  <option value="acer">ACER</option>
+  <option value="selective_test">Selective Test</option>
+  <option value="psat">PSAT</option>
+  <option value="sat">SAT</option>
+  <option value="act">ACT</option>
+  <option value="ap">AP</option>
+  <option value="ssat">SSAT</option>
+  <option value="ib">IB</option>
+  <option value="ssat">IGCSE</option>
+
                   </select>
                 </div>
                 <div className="form-group">

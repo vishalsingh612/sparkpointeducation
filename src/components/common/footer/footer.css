@@ -113,3 +113,23 @@ footer .last i {
 .legal i {
   color: #7F3E99;
 }
+@media screen and (max-width: 768px) {
+  footer .container {
+    grid-template-columns: 1fr; /* Stack all boxes vertically */
+  }
+
+  footer .last ul li {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+
+  footer .last i {
+    width: auto;
+    margin-bottom: 5px;
+  }
+
+  footer .box.last h3 {
+    margin-top: 30px;
+  }
+}

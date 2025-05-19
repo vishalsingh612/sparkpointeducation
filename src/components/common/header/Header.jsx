@@ -26,17 +26,19 @@ const Header = () => {
               <Link to='/team'>Team</Link>
             </li> */}
             <li>
-              <Link to='/pricing'>Pricing</Link>
+              <Link to='/download'>Our Application</Link>
             </li>
             <li>
-              <Link to='/journal'>Journal</Link>
+              <Link to='/journal'>Blogs</Link>
             </li>
             <li>
               <Link to='/contact'>Contact</Link>
             </li>
           </ul>
           <div className='start'>
+            <a href="https://web.classplusapp.com/login?orgCode=jpvnyg" style={{textDecoration:"none" , color:"white"}}>
             <div className='button'>LOGIN / SIGNUP</div>
+            </a>
           </div>
           <button className='toggle' onClick={() => setClick(!click)}>
             {click ? <i className='fa fa-times'> </i> : <i className='fa fa-bars'></i>}

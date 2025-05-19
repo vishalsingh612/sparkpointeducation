@@ -18,8 +18,9 @@
 }
 /*--------------faq-------------*/
 .faq .container {
-  max-width: 70%;
-  border-radius: 5px;
+  max-width: 80%;
+  border-radius: 0px;
+  margin-bottom: 60px;
 }
 .faq .box {
   background-color: #fff;
@@ -40,7 +41,7 @@
   padding: 20px;
 }
 .faq .accordion:hover {
-  background-color: #1eb2a6;
+  background-color: #7F3E99;
   color: #fff;
 }
 

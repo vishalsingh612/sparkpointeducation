@@ -9,6 +9,10 @@ import Blog from "./components/blog/Blog"
 import Contact from "./components/contact/Contact"
 import Footer from "./components/common/footer/Footer"
 import Home from "./components/home/Home"
+import InternationalCurriculum from "./components/allcourses/InternationalCurriculum"
+import IELTSPage from "./components/allcourses/ILETS"
+import SATPreparation from "./components/allcourses/SATprepration"
+import EngineeringSemester from "./components/allcourses/EngineeringSemester"
 
 function App() {
   return (
@@ -19,9 +23,13 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path='/courses' element={<CourseHome />} />
         <Route path='/team' element={<Team />} />
-        <Route path='/pricing' element={<Pricing />} />
+        <Route path='/download' element={<Pricing />} />
         <Route path='/journal' element={<Blog />} />
         <Route path='/contact' element={<Contact />} />
+        <Route path='/courses/international-curriculum' element={<InternationalCurriculum />} />
+        <Route path='/courses/Languages' element={<IELTSPage />} />
+        <Route path='/courses/sat' element={<SATPreparation />} />
+        <Route path='/courses/engineering' element={<EngineeringSemester />} />
       </Routes>
       <Footer />
     </Router>
