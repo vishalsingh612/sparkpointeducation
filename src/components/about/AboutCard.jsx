@@ -6,7 +6,7 @@ import Awrapper from "./Awrapper"
 const AboutCard = () => {
   const [formData, setFormData] = useState({
     name: "",
-    number: "",
+    phone: "",
     email: "",
     course: "",
     country: "",
@@ -21,17 +21,38 @@ const AboutCard = () => {
     }))
   }
 
-  const handleSubmit = (e) => {
-    e.preventDefault()
-    alert(`
-      Name: ${formData.name}
-      Phone Number: ${formData.number}
-      Email: ${formData.email}
-      Course: ${formData.course}
-      Country: ${formData.country}
-      City: ${formData.city}
-    `)
-  }
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const response = await fetch("https://sparkpointedu-backend.onrender.com/api/bookdemo", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+  
+      const data = await response.json();
+  
+      if (response.ok) {
+        alert("Demo booked successfully!");
+        // Optionally clear the form
+        setFormData({
+          name: "",
+          phone: "",
+          email: "",
+          course: "",
+          city: "",
+        });
+      } else {
+        alert("Failed to book demo: " + data.message);
+      }
+    } catch (error) {
+      console.error("Error booking demo:", error);
+      alert("Error booking demo. Try again later.");
+    }
+  };
+  
 
   return (
     <>
@@ -49,7 +70,7 @@ const AboutCard = () => {
                   <input type="text" name="name" placeholder="Enter your name" value={formData.name} onChange={handleChange} required />
                 </div>
                 <div className="form-group">
-                  <input type="tel" name="number" placeholder="Enter your phone number" value={formData.number} onChange={handleChange} required />
+                  <input type="tel" name="phone" placeholder="Enter your phone number" value={formData.phone} onChange={handleChange} required />
                 </div>
                 <div className="form-group">
                   <input type="email" name="email" placeholder="Enter your email" value={formData.email} onChange={handleChange} required />
@@ -79,9 +100,9 @@ const AboutCard = () => {
 
                   </select>
                 </div>
-                <div className="form-group">
+                {/* <div className="form-group">
                   <input type="text" name="country" placeholder="Enter your country" value={formData.country} onChange={handleChange} required />
-                </div>
+                </div> */}
                 <div className="form-group">
                   <input type="text" name="city" placeholder="Enter your city" value={formData.city} onChange={handleChange} required />
                 </div>

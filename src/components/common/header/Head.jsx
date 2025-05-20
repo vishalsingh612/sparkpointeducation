@@ -1,8 +1,10 @@
 import React, { useState } from "react"
+import axios from "axios"
 import logo from "../../../images/logo.png"
 
 const Head = () => {
   const [showPopup, setShowPopup] = useState(false)
+  const [formData, setFormData] = useState({ name: "", phone: "" })
 
   const buttonStyle = {
     backgroundColor: '#7F3E99',
@@ -48,6 +50,24 @@ const Head = () => {
     zIndex: 999,
   }
 
+  const handleChange = (e) => {
+    const { name, value } = e.target
+    setFormData(prev => ({ ...prev, [name]: value }))
+  }
+
+  const handleSubmit = async (e) => {
+    e.preventDefault()
+    try {
+      await axios.post("https://sparkpointedu-backend.onrender.com/api/book-call", formData)
+      alert("Thank you! We will contact you shortly.")
+      setShowPopup(false)
+      setFormData({ name: "", phone: "" }) // reset form
+    } catch (error) {
+      console.error("Error submitting call form:", error)
+      alert("Submission failed. Please try again.")
+    }
+  }
+
   return (
     <>
       <section className='head'>
@@ -77,17 +97,14 @@ const Head = () => {
           <div style={overlayStyle} onClick={() => setShowPopup(false)} />
           <div style={popupStyle}>
             <h3 style={{ marginBottom: '10px', color: '#7F3E99', textAlign: 'center' }}>Book a Call</h3>
-            <p style={{ marginBottom: '10px', color: 'grey', textAlign: 'center' }} >your first step to ace examination !</p>
-            <form
-              onSubmit={(e) => {
-                e.preventDefault()
-                alert('Thank you! We will contact you shortly.')
-                setShowPopup(false)
-              }}
-            >
+            <p style={{ marginBottom: '10px', color: 'grey', textAlign: 'center' }}>your first step to ace examination!</p>
+            <form onSubmit={handleSubmit}>
               <input
                 type="text"
+                name="name"
                 placeholder="Your Name"
+                value={formData.name}
+                onChange={handleChange}
                 required
                 style={{
                   width: '100%',
@@ -99,7 +116,10 @@ const Head = () => {
               />
               <input
                 type="tel"
+                name="phone"
                 placeholder="Phone Number"
+                value={formData.phone}
+                onChange={handleChange}
                 required
                 style={{
                   width: '100%',

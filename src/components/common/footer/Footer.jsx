@@ -37,7 +37,7 @@ const Footer = () => {
           <div className='logo'>
             <img src={logo} style={{width:"180px"}}/>
           </div>
-            <p>We offer expert-led SAT prep with personalized plans, quality materials, mock tests, and one-on-one mentoring to help students master concepts and boost their scores confidently.</p>
+            <p>We offer expert-led prep with personalized plans, quality materials, mock tests, and one-on-one mentoring to help students master concepts and boost their scores confidently.</p>
 
             <a href="https://www.facebook.com/share/18rUuTXobW/" target="_blank" rel="noopener noreferrer" style={iconStyle}>
       <i className='fab fa-facebook-f icon'></i>
@@ -81,7 +81,7 @@ const Footer = () => {
               </li>
               <li>
                 <i className='fa fa-phone-alt'></i>
-                +91 93104 48417<br/>
+                
                 +91 92116 31407
               </li>
               <li>

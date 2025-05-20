@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import axios from "axios"
 import Back from "../common/back/Back"
 import "./contact.css"
 
@@ -17,11 +18,19 @@ const Contact = () => {
     setFormData(prev => ({ ...prev, [name]: value }))
   }
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault()
-    alert(`Message Submitted!\n\nName: ${formData.name}\nEmail: ${formData.email}\nSubject: ${formData.subject}\nMessage: ${formData.message}`)
-    setFormData({ name: '', email: '', subject: '', message: '' }) // Reset form
+  
+    try {
+      await axios.post("https://sparkpointedu-backend.onrender.com/api/contact", formData)
+      alert("Thank you! Your message has been received.")
+      setFormData({ name: '', email: '', subject: '', message: '' }) // Reset form
+    } catch (error) {
+      console.error("Error submitting contact form:", error)
+      alert("Submission failed. Please try again later.")
+    }
   }
+  
 
   return (
     <>
