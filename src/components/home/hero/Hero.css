@@ -67,15 +67,22 @@
 .margin {
   height: 100%;
 }
+.margin2 {
+  height: 100%;
+}
 
 @media screen and (max-width: 768px) {
   .margin {
-    height: 40vh;
+    height: 60vh;
+  }
+  .margin2 {
+    height: 60vh;
   }
   .hero {
     background-position: right;
     padding-top: 60%;
     height: 100vh;
+
   }
   .hero .row {
     width: 100%;

@@ -22,6 +22,7 @@
     gap: 20px;
     align-items: center;
     transition: transform 0.3s ease;
+   
   }
   
   .stats-box:hover {
@@ -56,6 +57,7 @@
     .stats-box {
       flex-direction: column;
       text-align: center;
+      margin-top: 0px;
     }
   
     .stats-icon {

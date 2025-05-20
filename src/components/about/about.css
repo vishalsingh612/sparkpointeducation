@@ -108,4 +108,7 @@
   .awrapper {
     height: 50vh;
   }
+  .aboutHome .right {
+    padding: 0px;
+  }
 }
