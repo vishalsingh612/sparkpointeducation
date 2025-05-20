@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/sparkpointeducation/static/css/main.bcac7ae6.css",
+    "main.js": "/sparkpointeducation/static/js/main.d538569e.js",
+    "static/media/back.webp": "/sparkpointeducation/static/media/back.93d3f802b480eeabae07.webp",
+    "static/media/mobileapp.png": "/sparkpointeducation/static/media/mobileapp.e2a3e0de8c28be7a5eea.png",
+    "static/media/bg.webp": "/sparkpointeducation/static/media/bg.baa1024a4ae092566a75.webp",
+    "static/media/logo.png": "/sparkpointeducation/static/media/logo.7f6a4ea9e706687de623.png",
+    "index.html": "/sparkpointeducation/index.html",
+    "main.bcac7ae6.css.map": "/sparkpointeducation/static/css/main.bcac7ae6.css.map",
+    "main.d538569e.js.map": "/sparkpointeducation/static/js/main.d538569e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bcac7ae6.css",
+    "static/js/main.d538569e.js"
+  ]
+}
