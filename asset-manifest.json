@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/sparkpointeducation/static/css/main.3dc49d34.css",
-    "main.js": "/sparkpointeducation/static/js/main.041bf6e7.js",
+    "main.css": "/sparkpointeducation/static/css/main.e63c86aa.css",
+    "main.js": "/sparkpointeducation/static/js/main.27f6d015.js",
     "static/media/back.webp": "/sparkpointeducation/static/media/back.93d3f802b480eeabae07.webp",
     "static/media/mobileapp.png": "/sparkpointeducation/static/media/mobileapp.e2a3e0de8c28be7a5eea.png",
     "static/media/bg.webp": "/sparkpointeducation/static/media/bg.baa1024a4ae092566a75.webp",
     "static/media/logo.png": "/sparkpointeducation/static/media/logo.7f6a4ea9e706687de623.png",
     "index.html": "/sparkpointeducation/index.html",
-    "main.3dc49d34.css.map": "/sparkpointeducation/static/css/main.3dc49d34.css.map",
-    "main.041bf6e7.js.map": "/sparkpointeducation/static/js/main.041bf6e7.js.map"
+    "main.e63c86aa.css.map": "/sparkpointeducation/static/css/main.e63c86aa.css.map",
+    "main.27f6d015.js.map": "/sparkpointeducation/static/js/main.27f6d015.js.map"
   },
   "entrypoints": [
-    "static/css/main.3dc49d34.css",
-    "static/js/main.041bf6e7.js"
+    "static/css/main.e63c86aa.css",
+    "static/js/main.27f6d015.js"
   ]
 }
