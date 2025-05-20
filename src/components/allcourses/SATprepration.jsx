@@ -48,7 +48,7 @@ const SATPreparation = () => {
         <Section
           heading="SAT Preparation Modules"
           data={satCourses}
-          link="/courses/sat"
+          link="https://www.sparkpointeducation.com/courses?mainCategory=0&subCatList=[283341]"
           advantages="Our SAT program is structured to improve performance through strategy, skill-building, and consistent practice—aligned with the latest College Board format."
         />
       </div>

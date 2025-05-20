@@ -13,7 +13,8 @@ import InternationalCurriculum from "./components/allcourses/InternationalCurric
 import IELTSPage from "./components/allcourses/ILETS"
 import SATPreparation from "./components/allcourses/SATprepration"
 import EngineeringSemester from "./components/allcourses/EngineeringSemester"
-
+import TermsAndConditions from "./components/home/TermsAndCondition.js"
+import Privacy from "./components/home/Privacy.js"
 function App() {
   return (
     <Router>
@@ -26,6 +27,8 @@ function App() {
         <Route path='/download' element={<Pricing />} />
         <Route path='/journal' element={<Blog />} />
         <Route path='/contact' element={<Contact />} />
+        <Route path='/terms-and-conditions' element={<TermsAndConditions />} />
+        <Route path='/privacy' element={<Privacy />} />
         <Route path='/courses/international-curriculum' element={<InternationalCurriculum />} />
         <Route path='/courses/Languages' element={<IELTSPage />} />
         <Route path='/courses/sat' element={<SATPreparation />} />

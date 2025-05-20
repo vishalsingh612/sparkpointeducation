@@ -397,25 +397,42 @@ export const blog = [
   },
 ]
 export const testimonal = [
+
   {
     id: 1,
-    name: "Ananya",
-    post: "SAT Score: 1360",
-    desc: "I’m so grateful to SparkPoint Education for their constant support and expert guidance throughout my SAT journey. The structured lessons, practice tests, and personalized feedback helped me build confidence and achieve a 1360 on the SAT. SparkPoint made test prep a smooth and motivating experience!",
-    cover: "./images/testo/t1.webp",
+    name: "Dhruv",
+    post: "SAT Score: 1500 (Math: 790)",
+    desc: "The faculty here are incredibly supportive and knowledgeable. Their guidance helped me reach my full potential. The doubt-clearing sessions and regular practice were game-changers.",
+    cover: "../../../images/dummy.jpeg",
   },
   {
     id: 2,
-    name: "Dhruv",
-    post: "SAT Score: 1500",
-    desc: "I’m so grateful to SparkPoint Education for their constant support and expert guidance throughout my SAT journey. The structured lessons, practice tests, and personalized feedback helped me build confidence and achieve a 1500 on the SAT. SparkPoint made test prep a smooth and motivating experience",
-    cover: "./images/testo/t2.webp",
+    name: "Anirudh",
+    post: "SAT Score: 1460 (Math: 800)",
+    desc: "Getting a perfect 800 in Math was only possible because of the structured approach and expert mentorship I received. Every concept was made crystal clear!",
+    cover: "../../../images/anirudh.png",
   },
   {
     id: 3,
-    name: "Anirudh",
-    post: "SAT Score: 1460",
-    desc: "Joining SparkPoint Education was a game-changer for me. The faculty was incredibly knowledgeable, and their strategies made complex topics easier to understand. With their constant encouragement and smart study techniques, I was able to push my score to 1460. I couldn’t have done it without them",
-    cover: "./images/testo/t3.webp",
+    name: "Ananya",
+    post: "Math Score: 740",
+    desc: "The practice materials and personalized mentoring helped boost my confidence. I never felt stuck thanks to the quick doubt-solving support.",
+    cover: "../../../images/ananya.png",
   },
+  {
+    id: 4,
+    name: "Kashika",
+    post: "Math Score: 730",
+    desc: "The teachers here make even the toughest topics easy to understand. I’m so thankful for their continuous encouragement and focus on individual growth.",
+    cover: "../../../images/dummy.jpeg",
+  },
+  {
+    id: 5,
+    name: "Bhavik",
+    post: "Math Score: 760",
+    desc: "I truly appreciate the individual attention I received. The strategies taught helped me attempt every question with confidence and accuracy.",
+    cover: "../../../images/dummy.jpeg",
+  },
+
+
 ]

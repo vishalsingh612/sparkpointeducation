@@ -18,7 +18,7 @@ const Home = () => {
               subtitle='Empowering Educators to Inspire Excellence'
               title='Our Comprehensive Tutor Training Module'
             />
-        <div className='container grid'>
+        <div >
           <PriceCard />
         </div>
       </section>

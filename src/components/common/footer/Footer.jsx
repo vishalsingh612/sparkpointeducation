@@ -1,7 +1,21 @@
 import React from "react"
+import { Link } from "react-router-dom"
 import { blog } from "../../../dummydata"
 import "./footer.css"
 import logo from "../../../images/logo.png"
+const footerLinkStyle = {
+  color: '#7F3E99',
+  textDecoration: 'none',
+  fontSize: '15px',
+  display: 'block',
+  marginBottom: '8px',
+}
+const iconStyle = {
+  color: '#7F3E99',
+  fontSize: '18px',
+  marginRight: '15px',
+  textDecoration: 'none',
+}
 const Footer = () => {
   return (
     <>
@@ -25,30 +39,39 @@ const Footer = () => {
           </div>
             <p>We offer expert-led SAT prep with personalized plans, quality materials, mock tests, and one-on-one mentoring to help students master concepts and boost their scores confidently.</p>
 
-            <i className='fab fa-facebook-f icon'></i>
-            <i className='fab fa-twitter icon'></i>
-            <i className='fab fa-instagram icon'></i>
+            <a href="https://www.facebook.com/share/18rUuTXobW/" target="_blank" rel="noopener noreferrer" style={iconStyle}>
+      <i className='fab fa-facebook-f icon'></i>
+    </a>
+    <a href="https://www.instagram.com/spark_point_education?igsh=Y2JpcnNyaGc2eDE1" target="_blank" rel="noopener noreferrer" style={iconStyle}>
+      <i className='fab fa-instagram icon'></i>
+    </a>
+    <a href="https://www.linkedin.com/company/spark-point-education/" target="_blank" rel="noopener noreferrer" style={iconStyle}>
+  <i className='fab fa-linkedin-in icon'></i>
+</a>
+    <a href="https://www.youtube.com/@SparkPointEducation" target="_blank" rel="noopener noreferrer" style={iconStyle}>
+      <i className='fab fa-youtube icon'></i>
+    </a>
           </div>
           <div className='box link'>
-            <h3>Explore</h3>
-            <ul>
-              <li>About Us</li>
-              <li>Services</li>
-              <li>Courses</li>
-              <li>Blog</li>
-              <li>Contact us</li>
-            </ul>
-          </div>
-          <div className='box link'>
-            <h3>Quick Links</h3>
-            <ul>
-              <li>Contact Us</li>
-              <li>Pricing</li>
-              <li>Terms & Conditions</li>
-              <li>Privacy</li>
-              <li>Feedbacks</li>
-            </ul>
-          </div>
+  <h3>Explore</h3>
+  <ul>
+    <li><Link to="/about" style={footerLinkStyle}>About Us</Link></li>
+
+    <li><Link to="/courses" style={footerLinkStyle}>Courses</Link></li>
+    <li><Link to="/download" style={footerLinkStyle}>Download Our App</Link></li>
+    <li><Link to="/journal"style={footerLinkStyle}>Blog</Link></li>
+    <li><Link to="/contact"style={footerLinkStyle}>Contact Us</Link></li>
+  </ul>
+</div>
+
+<div className='box link'>
+  <h3>Quick Links</h3>
+  <ul>
+    <li><Link to="/contact" style={footerLinkStyle}>Contact Us</Link></li>
+    <li><Link to="/terms-and-conditions"style={footerLinkStyle}>Terms & Conditions</Link></li>
+    <li><Link to="/privacy" style={footerLinkStyle}>Privacy</Link></li>
+  </ul>
+</div>
           <div className='box last'>
             <h3>Reach to us</h3>
             <ul>
