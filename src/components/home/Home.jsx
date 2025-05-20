@@ -7,6 +7,7 @@ import Hprice from "./Hprice"
 import Testimonal from "./testimonal/Testimonal"
 import PriceCard from "../pricing/PriceCard"
 import Heading from "../common/heading/Heading"
+import BenefitsSection from "./BenefitsSection"
 const Home = () => {
   return (
     <>
@@ -23,8 +24,10 @@ const Home = () => {
         </div>
       </section>
       <Hblog />
-      <Testimonal />
       <Hprice />
+      <BenefitsSection />
+      <Testimonal />
+      
     </>
   )
 }

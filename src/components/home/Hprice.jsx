@@ -4,6 +4,11 @@ import { FaBookOpen, FaFileAlt, FaUserFriends } from "react-icons/fa"
 import "./price.css"
 const offerings = [
   {
+    icon: <FaUserFriends size={30} color="#5e3fa2" />,
+    title: "One-on-One Live Sessions",
+    desc: "Get personalized attention with expert tutors.",
+  },
+  {
     icon: <FaBookOpen size={30} color="#5e3fa2" />,
     title: "Complete Study Material",
     desc: "Access high-quality resources covering all topics.",
@@ -20,9 +25,11 @@ const offerings = [
   },
   {
     icon: <FaUserFriends size={30} color="#5e3fa2" />,
-    title: "One-on-One Live Sessions",
-    desc: "Get personalized attention with expert tutors.",
+    title: "Personal Mentor Support",
+    desc: "Every student will get a expert mentor for daily schedule tracking and guidance.",
   },
+  
+  
 ]
 
 const Hprice = () => {
