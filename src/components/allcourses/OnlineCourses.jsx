@@ -18,7 +18,7 @@ const OnlineCourses = () => {
     {
       icon: <GiEarthAmerica size={60} />,
       title: "International Curriculum",
-      tag: "IB / IGCSE / Others",
+      tag: "AP/AS-A Level/IB/IGCSE",
       link: "/courses/international-curriculum"
     },
     {

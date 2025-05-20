@@ -31,13 +31,33 @@ const InternationalCurriculum = () => {
     useEffect(() => {
         window.scrollTo(0, 0);
       }, []);
-  const apCourses = [
-    { title: "AP Art History", description: "Study of Western and global art from prehistory to the present." },
-    { title: "AP Music Theory", description: "Music notation, harmony, composition, and ear training." },
-    { title: "AP English Language and Composition", description: "Rhetoric, argumentation, and non-fiction analysis." },
-    { title: "AP Calculus AB", description: "Limits, derivatives, and integrals. College-level calculus." },
-    { title: "AP Computer Science A", description: "Java programming with algorithms and data structures." },
-  ];
+      const apCourses = [
+        { 
+          title: "AP English Language and Composition", 
+          description: "Rhetoric, argumentation, and non-fiction analysis." 
+        },
+        { 
+          title: "AP Calculus AB", 
+          description: "Limits, derivatives, and integrals. College-level calculus." 
+        },
+        { 
+          title: "AP Computer Science A", 
+          description: "Java programming with algorithms and data structures." 
+        },
+        { 
+          title: "AP Physics", 
+          description: "Mechanics, electricity, magnetism, and problem-solving with mathematical reasoning." 
+        },
+        { 
+          title: "AP Chemistry", 
+          description: "Atomic structure, chemical reactions, thermodynamics, and laboratory techniques." 
+        },
+        { 
+          title: "AP Biology", 
+          description: "Cell biology, genetics, evolution, and ecosystems with lab-based application." 
+        }
+      ]
+      
 
   const ibCourses = [
     { title: "IB Language & Literature", description: "Analyzing texts across cultures and media with a global perspective." },
@@ -48,11 +68,10 @@ const InternationalCurriculum = () => {
   ];
 
   const igcseCourses = [
-    { title: "IGCSE First Language English", description: "Develops analytical and communication skills in English." },
-    { title: "IGCSE Mathematics", description: "Core and extended content on algebra, geometry, and statistics." },
-    { title: "IGCSE Coordinated Sciences", description: "Double award in Biology, Chemistry, and Physics." },
-    { title: "IGCSE Business Studies", description: "Understanding of business activities in different environments." },
-    { title: "IGCSE Information & Communication Technology", description: "Practical and theoretical computer knowledge." },
+    { title: "", description: "The Cambridge International AS & A Levels are prestigious, globally recognized qualifications offered to students typically in Grades 11 and 12. Designed to develop in-depth subject knowledge, logical reasoning, and independent thinking, these qualifications are a gateway to top universities around the world." },
+    { title: "Exam Structure:", description: " AS Level: Completed in one year (usually Grade 11) | A Level: Completed over two years (Grades 11 & 12)" },
+    { title: "Subjects We Offer Coaching For:", description: "Mathematics (Pure Math, Mechanics, Probability & Statistics) Physics , Chemistry , Biology , Computer Science | Commerce & Business: Economics , Business , Accounting | Humanities & Languages:  English Language , English Literature , Psychology  , Sociology  , Global Perspectives , History , Geography " },
+   
   ];
 
   return (
@@ -78,6 +97,31 @@ const InternationalCurriculum = () => {
         data={igcseCourses}
         link="/courses/igcse"
         advantages="IGCSE builds a strong academic foundation and prepares students for further international qualifications like A-Levels or IB."
+      />
+      <Section
+        heading="AS & A-Level Exams"
+        data={igcseCourses}
+        link="/courses/igcse"
+        advantages="Why AS & A Levels?
+
+Widely accepted by top universities worldwide
+
+Deepens subject understanding and analytical skills
+
+Flexible subject combinations allow personalized academic paths
+
+Prepares students for competitive exams like SAT, ACT, and more
+
+
+Our Edge:
+
+Experienced faculty with Master’s degrees in each subject
+
+Topic-wise clarity, exam pattern-based practice, and past paper training
+
+Personalised doubt-solving and performance tracking
+
+Proven track record of high achievers"
       />
     </div>
     </>

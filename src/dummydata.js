@@ -316,28 +316,28 @@ export const price = [
 ]
 export const faq = [
   {
-    title: "How to Enroll This Online Courses?",
-    desc: "This is the first item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    title: "What is the SparkPoint Education App?",
+    desc: "An all-in-one learning app for SAT, IELTS, and international curriculum prep, offering videos, notes, and mock tests.",
   },
   {
-    title: "Where It is hidden by default, until the collapse?",
-    desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    title: "Who can use this app?",
+    desc: "Students in Grades 8–12 or anyone preparing for SAT, IELTS, AP, IB, IGCSE, and A-Level exams.",
   },
   {
-    title: "How It is hidden by default, until the collapse?",
-    desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    title: "What does each course include?",
+    desc: "Topic-wise video lessons, downloadable notes, practice questions, mock tests, and exam strategies.",
   },
   {
-    title: "How to Enroll This Online Courses?",
-    desc: "This is the first item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    title: "Can I access the content offline?",
+    desc: "Yes, selected videos can be downloaded for offline viewing depending on your plan.",
   },
   {
-    title: "Where It is hidden by default, until the collapse?",
-    desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    title: "Is progress synced between app and website?",
+    desc: "Yes, your learning progress is always synced across both platforms.",
   },
   {
-    title: "How It is hidden by default, until the collapse?",
-    desc: "It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the .accordion-body, though the transition does limit overflow.",
+    title: "How can I get support or reset my password?",
+    desc: "Use 'Forgot Password' or contact support@sparkpointeducation.com or via in-app/help chat.",
   },
 ]
 export const blog = [
