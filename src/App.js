@@ -15,9 +15,10 @@ import SATPreparation from "./components/allcourses/SATprepration"
 import EngineeringSemester from "./components/allcourses/EngineeringSemester"
 import TermsAndConditions from "./components/home/TermsAndCondition.js"
 import Privacy from "./components/home/Privacy.js"
+
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Header />
       <Routes>
         <Route path='/' element={<Home />} />
