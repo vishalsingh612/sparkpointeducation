@@ -47,7 +47,7 @@ const IELTSPage = () => {
         <Section
           heading="IELTS English Language Courses"
           data={englishCourses}
-          link="https://www.sparkpointeducation.com/courses?mainCategory=0&subCatList=[286913]"
+          link="https://www.sparkpointprep.com/courses?mainCategory=0&subCatList=[286913]"
           advantages="Our IELTS modules focus on all four language skills—Listening, Reading, Writing, and Speaking—ensuring a complete preparation experience tailored to your goals."
         />
       </div>

@@ -11,7 +11,7 @@ const courseData = [
     price: 80000,
     originalPrice: 95000,
     discount: "15% OFF",
-    link: "https://www.sparkpointeducation.com/courses/653140"
+    link: "https://www.sparkpointprep.com/courses/653140"
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const courseData = [
     price: 7500,
     originalPrice: 12000,
     discount: "37% OFF",
-    link: "https://www.sparkpointeducation.com/courses/648529"
+    link: "https://www.sparkpointprep.com/courses/648529"
   },
   {
     id: 3,
@@ -31,7 +31,7 @@ const courseData = [
     price: 25000,
     originalPrice: 30000,
     discount: "16% OFF",
-    link: "https://www.sparkpointeducation.com/courses/648528"
+    link: "https://www.sparkpointprep.com/courses/648528"
   },
   {
     id: 4,
@@ -41,7 +41,7 @@ const courseData = [
     price: 60000,
     originalPrice: 75000,
     discount: "20% OFF",
-    link: "https://www.sparkpointeducation.com/courses/640301"
+    link: "https://www.sparkpointprep.com/courses/640301"
   },
   {
     id: 5,
@@ -51,7 +51,7 @@ const courseData = [
     price: 500,
     originalPrice: 600,
     discount: "17% OFF",
-    link: "https://www.sparkpointeducation.com/courses/311307"
+    link: "https://www.sparkpointprep.com/courses/311307"
   },
   {
     id: 6,
@@ -61,7 +61,7 @@ const courseData = [
     price: 500,
     originalPrice: 600,
     discount: "17% OFF",
-    link: "http://sparkpointeducation.com/courses/265902"
+    link: "https://www.sparkpointprep.com/courses/265902"
   },
 ];
 

@@ -83,25 +83,25 @@ const InternationalCurriculum = () => {
       <Section
         heading="Advanced Placement (AP)"
         data={apCourses}
-        link="/courses/ap"
+        link="https://www.sparkpointprep.com/courses"
         advantages="AP courses allow high school students to tackle college-level work, potentially earn college credits, and demonstrate readiness to universities."
       />
       <Section
         heading="International Baccalaureate (IB)"
         data={ibCourses}
-        link="/courses/ib"
+        link="https://www.sparkpointprep.com/courses"
         advantages="The IB curriculum nurtures critical thinking, global awareness, and research skills—highly valued by top universities worldwide."
       />
       <Section
         heading="IGCSE (Cambridge)"
         data={igcseCourses}
-        link="/courses/igcse"
+        link="https://www.sparkpointprep.com/courses"
         advantages="IGCSE builds a strong academic foundation and prepares students for further international qualifications like A-Levels or IB."
       />
       <Section
         heading="AS & A-Level Exams"
         data={igcseCourses}
-        link="/courses/igcse"
+        link="https://www.sparkpointprep.com/courses"
         advantages="Why AS & A Levels?
 
 Widely accepted by top universities worldwide
